@@ -24,7 +24,7 @@ predicted_sentiment=model.predict(input_data_test)
 conf_mat=pd.DataFrame(confusion_matrix(output_data_test,predicted_sentiment),columns=['Predicted Negative','Predicted Neutral','Predicted Positive'],index=['Actual Negative','Actual Neutral','Actual Positive'])
 accuracy_info=accuracy_score(output_data_test,predicted_sentiment)
 print('The Accuracy is : ',accuracy_info)
-print('\n-------------------------- The Confusion Matrix--------------------------')
+print('\n-------------------------- The Confusion Matrix---------------------------')
 print(conf_mat)
 
 # Function to predict sentiment
