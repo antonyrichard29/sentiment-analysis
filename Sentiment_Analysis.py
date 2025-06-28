@@ -28,49 +28,11 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 51,
+      "execution_count": null,
       "metadata": {
-        "id": "d97hpBXo5yzU",
-        "colab": {
-          "base_uri": "https://localhost:8080/"
-        },
-        "outputId": "b93a3720-a000-48ab-8288-63e03266c8b1"
+        "id": "d97hpBXo5yzU"
       },
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "The Accuracy is :  0.7866108786610879\n",
-            "\n",
-            "-------------------------- The Confusion Matrix--------------------------\n",
-            "                 Predicted Negative  Predicted Neutral  Predicted Positive\n",
-            "Actual Negative                 924                585                  53\n",
-            "Actual Neutral                   35               2145                  50\n",
-            "Actual Positive                  39                411                1255\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):i am happy\n",
-            "Sentiment is positive\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):bye\n",
-            "Sentiment is neutral\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):ok\n",
-            "Sentiment is neutral\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):poda \n",
-            "Sentiment is neutral\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):see you soon\n",
-            "Sentiment is neutral\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):you are dumb\n",
-            "Sentiment is negative\n",
-            "\n",
-            "Enter the sentence (or type 'exit' to quit):exit\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "import pandas as pd\n",
         "from sklearn.model_selection import train_test_split\n",
