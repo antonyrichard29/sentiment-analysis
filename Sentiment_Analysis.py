@@ -7,7 +7,8 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import accuracy_score
 
 # Load the dataset
-sentiment_data=pd.read_csv('/content/drive/MyDrive/Colab Notebooks/tweet_dataset.csv', encoding='unicode_escape')
+# Replace 'your_path_here.csv' with the correct path to your dataset
+sentiment_data=pd.read_csv('your_path_here', encoding='unicode_escape')
 
 # Prepare the input and output data
 input_data=sentiment_data['selected_text']
